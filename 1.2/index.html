@@ -3,12 +3,29 @@
 
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" name="yandex-verification" content="b9bbed8c6b448143">
   <title>Техномаркет</title>
 
   <link rel="icon" href="img/favicon/Favicon/32.ico">
-  <link rel="stylesheet" href="css/min_style.css">
-  <link rel="stylesheet" href="css/min_normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+  (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+  m[i].l=1*new Date();
+  for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+  k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+  (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+  ym(96790105, "init", {
+       clickmap:true,
+       trackLinks:true,
+       accurateTrackBounce:true,
+       webvisor:true
+  });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/96790105" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 </head>
 
 
@@ -138,6 +155,13 @@
           <p class="popular__goods--text">Перфоратор BOSCH <br> BFG 2000</p>
           <p class="popular__goods--text--after">22500 Р.</p>
           <button id="butnBuy" href="#" class="popular__goods--button">12500 Р.</button>
+        </div>
+        <div class="modal_cart">
+          <button class="form_close" type="button"></button>
+          <svg class="modal_cart_check"></svg>
+          <span>Товар добавлен в корзину!</span>
+          <button class="modal_cart_butn-red" type="button">Оформить заказ</button>
+          <button class="modal_cart_butn-white" type="button">Продолжить покупки</button>
         </div>
 
       </section>
@@ -322,8 +346,9 @@
     </div>
   </footer>
 
-  <script src="/js/min_script.js"></script>
+
 </body>
+<script src="/js/script.js"></script>
 
 
 </html>
